@@ -227,56 +227,83 @@ a {
     border-radius: 20px !important;
 }
 
+
 /*EXIBE PRODUTOS (TELAS DE COMPRAS)*/
+.ContainerExibe {
+    width: 100%;
+    height: 90vh;
+}
 .exibe {
     display: flex;
-    justify-content: center;
-}
-.ExibeQuadrado {   
-    background: rgba(217, 217, 217, 0.6);   
-    border-radius: 15px;
-    margin-top: 2%;
+    padding: 0%;
 }
 .exibe-produto-desc{
+    border-radius: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    margin-left: 5%;
 }
+
 .buycompras{
     font-size: 30px;
     color: #190C76;
+    
 }
 .buyPreco {
     display: flex;
     font-size: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .estrelas{
     font-size: 20px;
     color: #190C76;
     border: #000;
+    
 }
-
+.ExibeQuadrado {   
+    display: flex;
+    background: rgba(217, 217, 217, 0.6);   
+    border-radius: 15px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
 .linhaazul{
     background-color: #190C76;
     width: 700px;
     height: 5px;
+    
 }
 .cores {
     display: flex !important;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 .cor {
     font-size: 20px;
     color: #190C76;
+    margin-top: 1%;
+    
 }
 
 .tamanho {
-        font-size: 20px;
-        color: #190C76;
-    
+    font-size: 20px;
+    color: #190C76;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .btnTamanhos{
     border: none;
     background-color: #fff;
-    border-radius: 40%;
+    border-radius: 50%;
     justify-content: center;
-
+    width: 40px;
+    height: 40px;
     display: flex;
     
 }
@@ -321,9 +348,10 @@ a {
 }
 .p{
     background-color: rgba(217, 217,217, 0.6);
-    border-radius: 40%;
+    border-radius: 50%;
     justify-content: center;
-   
+    width: 30px;
+    height: 30px;
     display: flex;
     
 }
@@ -331,39 +359,54 @@ a {
     background-color: rgba(217, 217,217, 0.6);
     border-radius: 40%;
     justify-content: center;
-    
+    width: 30px;
+    height: 30px;
     display: flex;
 }
 .g{
     background-color: rgba(217, 217,217, 0.6);
     border-radius: 40%;
     justify-content: center;
-   
+    width: 30px;
+    height: 30px;
     display: flex;
 }
 .gg{
     background-color: rgba(217, 217,217, 0.6);
     border-radius: 40%;
     justify-content: center;
+    width: 30px;
+    height: 30px;
     display: flex;
 }
 .btnCor1{
     border: none;
     background-color:#190C76;
     border-radius: 50%;
-   
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2%;
+    margin-left: 1%;
 }
 .btnCor2{
     border: none;
     background-color: aqua;
     border-radius: 50%;
-    
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2%;
+   margin-left: 1%;
 }
 .btnCor3{
     border: none;
     background-color:#000;
     border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2%;
+   margin-left: 1%;
 }
+
 /* LOGIN */
 .container{
 }

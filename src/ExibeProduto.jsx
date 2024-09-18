@@ -26,8 +26,8 @@ const ExibeProduto =({catalago,name, ...props}) => {
 
     return(
         <>
-        <Header/>
-        <div className="exibe">   
+    <Header links = {false}/>
+    <div className="exibe">   
                 <div className="ExibeQuadrado">
                     <img src={buscaProduto.img} alt={catalago.nome}/>
                 </div>
